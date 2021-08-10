@@ -31,8 +31,8 @@ def get():
     a.to_html(split + '.html', border=0, bold_rows=False, justify='left', encoding='utf-8', index=False, header=True)
     
     landname=entry1.get()
-    if not landname:
-      landname=" "
+    if not name:
+      name=" "
 
     
     options = { 
@@ -40,7 +40,7 @@ def get():
       'page-size': "A4",
       'footer-right': "[page]",
       'header-right': "[date]",
-      'header-left': landname,
+      'header-left': name,
       'encoding': "UTF-8",
     } 
     config = pdfkit.configuration(wkhtmltopdf='C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe')
