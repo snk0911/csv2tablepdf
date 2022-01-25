@@ -1,2 +1,2 @@
 # csv2tablepdf
-Converts csv-files rapidly into a pdf-format table
+Converts CSV-files rapidly into a PDF-format table.
